@@ -33,7 +33,7 @@ int main() {
     glfwMakeContextCurrent(window);
 
     // Load PPM image data
-    Image img = loadPPM("C:\\apoQlar\\projects\\misc\\libviewer\\test_files\\ppm\\coloful.ppm");
+    Image img = loadPPM("..\\test_files\\ppm\\coloful.ppm");
 
     while (!glfwWindowShouldClose(window)) {
         int width, height;
